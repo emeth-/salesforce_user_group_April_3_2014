@@ -1,0 +1,6 @@
+Best lead sources that turn into closed successful deals:<br />
+<ul>
+{% for v in results %}
+    <li>{{ v.lead_source }}: {{ v.total }}</li>
+{% endfor %}
+</ul>
